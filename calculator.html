@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="container">
+			<div class="display row two">
+				<button class="col-sm-3 clear">C</button>
+				<div class="col-sm-7" id="displayNumber"></div>
+			</div>
+			<div class="row four">
+				<button class="col-sm-3 num" value="7">7</button>
+				<button class="col-sm-3 num" value="8">8</button>
+				<button class="col-sm-3 num" value="9">9</button>
+				<button class="col-sm-3 operation" value="divide">/</button>	
+			</div>
+			<div class="row four">
+				<button class="col-sm-3 num" value="4">4</button>
+				<button class="col-sm-3 num" value="5">5</button>
+				<button class="col-sm-3 num" value="6">6</button>
+				<button class="col-sm-3 operation" value="multiply">*</button>
+			</div>
+			<div class="row four">
+				<button class="col-sm-3 num" value="1">1</button>
+				<button class="col-sm-3 num" value="2">2</button>
+				<button class="col-sm-3 num" value="3">3</button>
+				<button class="col-sm-3 operation" value="subtract">-</button>
+			</div>
+			<div class="row four">
+				<button class="col-sm-3 num" value="0">0</button>
+				<button class="col-sm-3 decimal">.</button>
+				<button class="col-sm-3 equal">=</button>
+				<button class="col-sm-3 operation" value="add">+</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="lib/calculator.js"></script>
+</html>

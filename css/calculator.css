@@ -1,0 +1,61 @@
+html{
+	height: 100%;
+	min-width: 420px;
+}
+
+body {
+	padding-top: 50px;
+	background: rgb(2,0,36);
+	background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%);
+	background-size: contain;
+	font-size: 2em;
+}
+
+button:focus {outline:0;}
+
+.container-fluid {
+	width: 400px;
+	height: 460px;
+	background: rgba(0, 0, 0, 0);
+}
+
+.container {
+	width: auto;
+	padding-top: 20px;
+}
+
+.row {
+	padding: 5px;
+}
+
+.row button {
+	float: left;
+	background-color: #2196F3;
+	border: 2px solid #DDD;
+	color: #FFF;
+	padding: 15px 15px;
+	width: 80px;
+	text-align: center;
+	margin:0 5px;
+	border-radius: 10px;
+}
+
+.row button:hover {
+	background-color: #6AB8F7;
+}
+
+.row button:active {
+	background-color: #0D6EBA;
+}
+
+#displayNumber {
+	background-color: transparent;
+	border-color: transparent;
+	text-align: right;
+	width: auto;
+	float: right;
+	width: 260px;
+	color: #FFF;
+	padding: 15px 15px;
+	margin:0 5px;
+}
